@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Ular (Snake)</title>
+  <style>
+    canvas {
+      background: #000;
+      display: block;
+      margin: 20px auto;
+    }
+    h1, p {
+      text-align: center;
+      color: #333;
+    }
+    #scoreDisplay {
+      font-size: 20px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Game Ular Sederhana</h1>
+  <p>Gunakan panah ← ↑ → ↓ untuk menggerakkan ular.</p>
+  <p id="scoreDisplay">Skor: 0</p>
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+  <!-- Hubungkan file JavaScript -->
+  <script src="snake.js"></script>
+</body>
+</html>
